@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_add_task_24.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.124" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_image_24.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/drawable/ic_launcher_background.xml" value="0.145" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/activity_create_task.xml" value="0.1" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/activity_task_list.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_add_answer.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_add_task.xml" value="0.2" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_answer_task_info.xml" value="0.2" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_create_answer.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_create_task.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_create_test.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_gallery.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_task_info.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/fragment_task_list.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/galery_item.xml" value="0.176" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/qwe.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/task_item.xml" value="0.2078804347826087" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/layout/test_item.xml" value="0.2" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/DIPLOM/program/app/src/main/res/menu/top_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

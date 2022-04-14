@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.example.appforteacher.Presentation.View.TaskListFragment"
+        android:label="fragment_task_list"
+        tools:layout="@layout/fragment_task_list" >
+        <action
+            android:id="@+id/action_taskListFragment_to_createTaskFragment"
+            app:destination="@id/createTaskFragment" />
+        <action
+            android:id="@+id/action_taskListFragment_to_createAnswerFragment"
+            app:destination="@id/createAnswerFragment" />
+        <action
+            android:id="@+id/action_taskListFragment_to_taskInfoFragment"
+            app:destination="@id/taskInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createTaskFragment"
+        android:name="com.example.appforteacher.Presentation.View.CreateTestFragment"
+        android:label="fragment_create_task"
+        tools:layout="@layout/fragment_create_test" >
+        <action
+            android:id="@+id/action_createTaskFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment" />
+        <action
+            android:id="@+id/action_createTaskFragment_to_createAnswerFragment"
+            app:destination="@id/createAnswerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAnswerFragment"
+        android:name="com.example.appforteacher.Presentation.View.CreateAnswerFragment"
+        android:label="fragment_create_answer"
+        tools:layout="@layout/fragment_create_answer" >
+        <action
+            android:id="@+id/action_createAnswerFragment_to_createTaskFragment"
+            app:destination="@id/createTaskFragment" />
+        <action
+            android:id="@+id/action_createAnswerFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taskInfoFragment"
+        android:name="com.example.appforteacher.Presentation.View.AnswerTaskInfoFragment"
+        android:label="fragment_task_info"
+        tools:layout="@layout/fragment_answer_task_info" >
+        <action
+            android:id="@+id/action_taskInfoFragment_to_taskListFragment"
+            app:destination="@id/taskListFragment" />
+        <action
+            android:id="@+id/action_taskInfoFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.appforteacher.Presentation.View.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_taskInfoFragment"
+            app:destination="@id/taskInfoFragment" />
+    </fragment>
+</navigation>

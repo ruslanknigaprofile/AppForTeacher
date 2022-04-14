@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AppForTeacher</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="taskTypeTest">
+        <item>Тест</item>
+        <item>Ответ</item>
+    </string-array>
+
+    <string-array name="taskTypeAnswer">
+        <item>Ответ</item>
+        <item>Тест</item>
+    </string-array>
+</resources>
