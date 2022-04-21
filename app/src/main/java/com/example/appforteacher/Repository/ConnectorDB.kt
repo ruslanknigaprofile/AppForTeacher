@@ -23,7 +23,9 @@ class ConnectorDB {
     }
 
     fun writeInDB(task: Task){
-        mDataBase.push().setValue(task)
+        val push = mDataBase.push()
+        task.id = push.key.toString()
+        push.setValue(task)
     }
 
     fun getImages(task: Task, vm: ViewModel){
@@ -36,7 +38,6 @@ class ConnectorDB {
                 vm.galleryImagesMF.value = arrImg
             }
         }
-
     }
 
     fun readFromDB(vm: ViewModel) {
@@ -44,11 +45,8 @@ class ConnectorDB {
         mDataBase.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
                 tasksList.clear()
-                var index = 0
                 for (ds in snapshot.children) {
                     tasksList.add(ds.getValue(Task::class.java) as Task)
-                    tasksList.get(index).id = ds.key.toString()
-                    index++
                 }
                 vm.tasksList.value = tasksList
             }

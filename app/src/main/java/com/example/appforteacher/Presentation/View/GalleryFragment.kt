@@ -22,7 +22,6 @@ class GalleryFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         vm = ViewModelProvider(requireActivity()).get(ViewModel::class.java)
     }
 
